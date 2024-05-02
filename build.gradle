@@ -23,6 +23,13 @@ dependencies {
 	implementation 'org.springframework.boot:spring-boot-starter-web'
 	runtimeOnly 'com.h2database:h2'
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
+	implementation 'mysql:mysql-connector-java:8.0.32'
+
+	// mysql
+	runtimeOnly 'com.mysql:mysql-connector-j'
+
+	// swagger
+	implementation 'org.springdoc:springdoc-openapi-starter-webmvc-ui:2.0.2'
 }
 
 tasks.named('test') {
